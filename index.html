@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css">
+
+</head>
+
+<body>
+    <div class="main">
+        <!-- first page/ session-1 -->
+
+        <div id="id-index" class="index">
+
+            <!-- first line 第一行 -->
+            <div class="indexTop">
+                <!-- indexTopRight -->
+                <div class="indexTopRight">
+                    <div class="covillaName"><a class="covillaShow" href="https://webflow-path-three.webflow.io/">COVILLA</a></div>
+                    <div class="destinations">
+                        <span class="destinationName">DESTINATIONS</span>
+                        <svg class="down-arrow" xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#eff1f6" d="M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg>
+                    </div>
+                </div>
+
+                <!-- about journal support  -->
+                <div class="aboutContainer">
+                    <div class="about"><a href="https://webflow-path-three.webflow.io/about">ABOUT</a></div>
+                    <div class="journal"><a href="https://webflow-path-three.webflow.io/journal">JOURNAL</a></div>
+                    <div class="support"><a href="https://webflow-path-three.webflow.io/support">SUPPORT</a></div>
+                </div>
+
+                <div class="indexTopLeft">
+                    <svg class="menuIcon" xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+                </div>
+
+            </div>
+            <div class="indexBottom">
+                <div class="indexBottomLeft">
+                    <div class="home-hero-title">
+                        <div class="subtitle-white">Family Travel Agency</div>
+                        <h1>Let's plan your next vacation</h1>
+                    </div>
+                    <a class="contact-us-link" href="https://webflow-path-three.webflow.io/support">contact us</a>
+                </div>
+                <div class="indexBottomRight video-circle">
+                    <!-- video circle -->
+                    <div class="circle">
+                        <div class="circleOnePlay">
+                            <svg class="play-button" xmlns="http://www.w3.org/2000/svg" height="16" width="12" viewBox="0 0 384 512">!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.<path fill="#f9fafb" d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>
+                        </div>
+                        <div class="circleTwoBlue"></div>
+                        <div class="circleThree">
+                            <video src="https://assets.website-files.com/60675f13ea324fdd4af9ef2a/60785e47c656dc751d6416ef_Video002-transcode.mp4" autoplay loop muted></video>
+                        </div>
+                        <div class="circleFour"></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Destinations / CHOOSE A LOCATION -->
+            <div class="choose-a-location" id="location-popup">
+                <div class="container">
+                    <div class="chooseLocationHeading">
+                        <div class="subtitle">CHOOSE A LOCATION</div>
+                        <div>
+                            <hr>
+                        </div>
+
+                    </div>
+
+                    <ul class="location-list france-egypt">
+                        <li id="france" class="country">
+                            <h4>France</h4>
+                            <p>6 VACATIONS</p>
+                        </li>
+                        <li id="indonesia" class="country">
+                            <h4>Indonesia</h4>
+                            <p>6 VACATIONS</p>
+                        </li>
+                        <li id="greece" class="country">
+                            <h4>Greece</h4>
+                            <p>6 VACATIONS</p>
+                        </li>
+                        <li id="egypt" class="country">
+                            <h4>Eygpt</h4>
+                            <p>6 VACATIONS</p>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- overlay -->
+            <div class="overlay"></div>
+
+            <!-- side menu content -->
+            <div class="sideMenuContent">
+                <div class="close-menu-icon-container">
+                    <div class="close-menu-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="16" width="12" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M376.6 84.5c11.3-13.6 9.5-33.8-4.1-45.1s-33.8-9.5-45.1 4.1L192 206 56.6 43.5C45.3 29.9 25.1 28.1 11.5 39.4S-3.9 70.9 7.4 84.5L150.3 256 7.4 427.5c-11.3 13.6-9.5 33.8 4.1 45.1s33.8 9.5 45.1-4.1L192 306 327.4 468.5c11.3 13.6 31.5 15.4 45.1 4.1s15.4-31.5 4.1-45.1L233.7 256 376.6 84.5z"/></svg>
+                    </div>
+                </div>
+
+                <div class="sideMenuContainer">
+                    <h2>Explore vacations</h2>
+                    <div class="box">
+                        <div class="vacation-continents">
+                            <div class="subtitle-heading">
+                                <div class="choose-a-continent">CHOOSE A CONTINENT</div>
+                                <div class="hr-1-line">
+                                    <hr>
+                                </div>
+                            </div>
+
+
+                            <div class="africa-europe">
+                                <ul class="africa-europe-container">
+                                    <li id="africa" class="country">
+                                        <a href="https://webflow-path-three.webflow.io/continents/africa"></a>
+                                        <h4>Africa</h4>
+                                        <p>6 VACATIONS</p>
+                                    </li>
+                                    <li id="asia" class="country">
+                                        <h4>Asia</h4>
+                                        <p>6 VACATIONS</p>
+                                    </li>
+                                    <li id="europe" class="country">
+                                        <h4>EUROPE</h4>
+                                        <p>12 VACATIONS</p>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <div class="vacation-destinations">
+                            <div class="subtitle-heading">
+                                <div class="choose-a-destination">CHOOSE A DESTINATION</div>
+                                <div class="hr-2-line">
+                                    <hr>
+                                </div>
+                            </div>
+
+
+                            <div class="france-egypt">
+                                <ul class="france-egypt-container">
+                                    <li id="france-li" class="country">
+                                        <h4>France</h4>
+                                        <p>6 VACATIONS</p>
+                                    </li>
+                                    <li id="indonesia-li" class="country">
+                                        <h4>Indonesia</h4>
+                                        <p>6 VACATIONS</p>
+                                    </li>
+                                    <li id="greece-li" class="country">
+                                        <h4>Greece</h4>
+                                        <p>6 VACATIONS</p>
+                                    </li>
+                                    <li id="egypt-li" class="country">
+                                        <h4>Eygpt</h4>
+                                        <p>6 VACATIONS</p>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="contactUs"></div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- slider bottom container-->
+            <div class="slider-bottom">
+                <div class="left-container">
+                    <div class="rightButton">
+                        <svg class="right-arrow" xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#404040" d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"/></svg>
+                    </div>
+                    <div class="leftButton">
+                        <svg class="left-arrow" xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#404040" d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 288 480 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-370.7 0 73.4-73.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-128 128z"/></svg>
+                    </div>
+
+                </div>
+                <div class="subtitle" id="subtitle-box">
+                    <div id="id-subtitle-1" class="subtitle-1">Thessaloniki, Greece</div>
+                    <div id="id-subtitle-2" class="subtitle-2">STARTING AT $ 6700</div>
+                </div>
+
+                <div id="rightButtonBig">
+                    <a href="https://webflow-path-three.webflow.io/vacations/thessaloniki"></a>
+                    <svg class="angle-right" xmlns="http://www.w3.org/2000/svg" height="16" width="10" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#404040" d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- open-overlay, firstPage open in the middle 从中间撑开-->
+
+        <div class="openup-overlay"></div>
+        <div class="opendown-overlay"></div>
+
+        <!-- session-2/ page 2 / Across the world -->
+        <div class="worldDestinationName">COVILLA DESTINATIONS</div>
+        <div class="worldName">Across the world</div>
+        <!-- swiper -->
+        <div class="swiperBox">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide-1"></div>
+                    <div class="swiper-slide slide-2"></div>
+                    <div class="swiper-slide slide-3"></div>
+                    <div class="swiper-slide slide-4"></div>
+                </div>
+                <!-- button -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+
+        <!-- session 3/ page 3, covilla benefits -->
+        <div class="session-3">
+            <div class="intro">
+                <div class="left">
+                    <p class="subtitle">COVILLA BENEFITS</p>
+                    <h1>Take your family on the best vacation</h1>
+                    <p class="moreInfo">Donec sed auctor orci. In a nisl vel nisi egestas efficitur nec ac neque. Sed vitae sollicitudin elit, ac tristique nisi. Pellentesque rutrum egestas massa lacinia volutpat. Integer et facilisis elit, vitae.</p>
+                    <div class="chooseDestinations" id="idChooseDestinations">
+                        <span class="destinationName">CHOOSE A DESTINATION</span>
+                        <svg class="down-arrow-destination" xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#eff1f6" d="M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg>
+                    </div>
+                </div>
+                <div class="rightPic">
+                    <div class="rightImg"></div>
+                </div>
+            </div>
+
+            <div class="benefits-bottom">
+                <div class="top">
+                    <div class="why">WHY WE'RE DIFFERENT</div>
+                    <div class="horizontal-line"></div>
+                </div>
+                <div>
+                    <ul class="benefit-info">
+                        <li class="benefit-card">
+                            <div class="benefit-icon"><img src="https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607de725aadcc55501bb2e9e_Passport.svg" alt=""></div>
+                            <h3>Hands-on planning</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin eget velit.</p>
+
+
+                        </li>
+                        <li class="benefit-card">
+                            <div class="benefit-icon"><img src="https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607de75f12ac9913a3643e65_Deals.svg" alt=""></div>
+                            <h3>Added value &amp; perks</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin eget velit.</p>
+
+
+                        </li>
+                        <li class="benefit-card">
+                            <div class="benefit-icon"><img src="https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607de7788cdec20d82446914_Case.svg" alt=""></div>
+                            <h3>Access best deals</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin eget velit.</p>
+                        </li>
+                        <li class="benefit-card">
+                            <div class="benefit-icon"><img src="https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607de73f1afa67ce64a6b7a0_Location%20marker.svg" alt=""></div>
+                            <h3>Personalized</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin eget velit.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- session-4 -->
+        <div class="session-4">
+            <div class="testimonial-content">
+                <div class="testimonial-description">Donec sed auctor orci. In a nisl vel nisi egestas efficitur nec ac neque. Sed vitae sollicitudin elit, ac tristique nisi. Pellentesque rutrum egestas massa lacinia volutpat. Integer et facilisis elit, vitae lobortis enim. </div>
+                <h3 class="testimonial-client">Samantha Vohnhale</h3>
+            </div>
+            <div class="testimonial-arrow-container">
+                <div class="testimonial-arrow-left testimonial-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
+                </div>
+                <div class="testimonial-arrow-right testimonial-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- session-5 -->
+        <div class="session-5">
+            <div class="session-5-container">
+                <div class="subtitle-intro-wrapper">
+                    <div class="subtitle-intro">POPULAR COVILLA VACATIONS</div>
+                    <div class="horizontal-line"></div>
+                </div>
+
+                <div class="popularVacations">
+                    <div class="popularVacationsContainer">
+
+                        <ul class="vacationTab">
+                            <li class="topOne">EGYPT
+                                <div class="circleOne topOneC1"></div>
+                                <div class="circleTwo topOneC2 "></div>
+                            </li>
+                            <li class="topTwo">GREECE
+                                <div class="circleOne topTwoC1"></div>
+                                <div class="circleTwo topTwoC2"></div>
+                            </li>
+                            <li class="topThree">INDONESIA
+                                <div class="circleOne topThreeC1 "></div>
+                                <div class="circleTwo  topThreeC2"></div>
+                            </li>
+                            <li class="topFour">FRANCE
+                                <div class="circleOne topFourC1"></div>
+                                <div class="circleTwo topFourC2"></div>
+                            </li>
+                        </ul>
+
+                        <ul class="vacationTabContent">
+                            <li class="bottomOne">
+                                <div class="contentContainer " id="contentContainerOne">
+                                    <div class="contentContainerInside">
+                                        <div class="vacationCard" id="vacationCardOne"></div>
+                                        <div class="vacationBottom">
+                                            <div class="vacationCardInfo">
+                                                <h3>Bahariya Oasis</h3>
+                                            </div>
+                                            <div class="infoDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin eget.</div>
+                                            <div class="vacationDetails">
+                                                <div class="vacation-price">
+                                                    <div class="ratesFrom">RATES FROM</div>
+                                                    <div class="price">$6400</div>
+                                                </div>
+                                                <a class="detailLink" href="https://webflow-path-three.webflow.io/vacations/bahariya-oasis">DETAILS</a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="contentContainer" id="contentContainerTwo">
+                                    <div class="contentContainerInside">
+                                        <div class="vacationCard" id="vacationCardTwo"></div>
+                                        <div class="vacationBottom">
+                                            <div class="vacationCardInfo">
+                                                <h3>Sahl Hasheesh</h3>
+                                            </div>
+                                            <div class="infoDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin eget.</div>
+                                            <div class="vacationDetails">
+                                                <div class="vacation-price">
+                                                    <div class="ratesFrom">RATES FROM</div>
+                                                    <div class="price">$7700</div>
+                                                </div>
+                                                <a class="detailLink" href="https://webflow-path-three.webflow.io/vacations/sahl-hasheesh">DETAILS</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="contentContainer" id="contentContainerThree">
+                                    <div class="contentContainerInside">
+                                        <div class="vacationCard" id="vacationCardThree"></div>
+                                        <div class="vacationBottom">
+                                            <div class="vacationCardInfo">
+                                                <h3>Alexandria</h3>
+                                            </div>
+                                            <div class="infoDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin eget.</div>
+                                            <div class="vacationDetails">
+                                                <div class="vacation-price">
+                                                    <div class="ratesFrom">RATES FROM</div>
+                                                    <div class="price">$5300</div>
+                                                </div>
+                                                <a class="detailLink" href="https://webflow-path-three.webflow.io/vacations/alexandria">DETAILS</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </li>
+                            <li class="bottomTwo">
+                                <div class="contentContainer " id="contentContainerFour">
+                                    <div class="contentContainerInside">
+                                        <div class="vacationCard" id="vacationCardFour"></div>
+                                        <div class="vacationBottom">
+                                            <h3>Palaiokastritsa</h3>
+                                            <div class="infoDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin eget.</div>
+                                            <div class="vacationDetails">
+                                                <div class="vacation-price">
+                                                    <div class="ratesFrom">RATES FROM</div>
+                                                    <div class="price">$6400</div>
+                                                </div>
+                                                <a class="detailLink" href="https://webflow-path-three.webflow.io/vacations/palaiokastritsa">DETAILS</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contentContainer" id="contentContainerFive">
+                                    <div class="contentContainerInside">
+                                        <div class="vacationCard" id="vacationCardFive"></div>
+                                        <div class="vacationBottom">
+                                            <h3>Meteora</h3>
+                                            <div class="infoDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin eget.</div>
+                                            <div class="vacationDetails">
+                                                <div class="vacation-price">
+                                                    <div class="ratesFrom">RATES FROM</div>
+                                                    <div class="price">$2800</div>
+                                                </div>
+                                                <a class="detailLink" href="https://webflow-path-three.webflow.io/vacations/meteora">DETAILS</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="contentContainer" id="contentContainerSix">
+                                    <div class="contentContainerInside">
+                                        <div class="vacationCard" id="vacationCardSix"></div>
+                                        <div class="vacationBottom">
+                                            <h3>Thessaloniki</h3>
+                                            <div class="infoDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin eget.</div>
+                                            <div class="vacationDetails">
+                                                <div class="vacation-price">
+                                                    <div class="ratesFrom">RATES FROM</div>
+                                                    <div class="price">$6700</div>
+                                                </div>
+                                                <a class="detailLink" href="https://webflow-path-three.webflow.io/vacations/thessaloniki">DETAILS</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </li>
+                            <li class="bottomThree">
+                                <div class="contentContainer" id="contentContainerSeven">
+                                    <div class="contentContainerInside">
+                                        <div class="vacationCard" id="vacationCardSeven"></div>
+                                        <div class="vacationBottom">
+                                            <h3>Canggu</h3>
+                                            <div class="infoDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin eget.</div>
+                                            <div class="vacationDetails">
+                                                <div class="vacation-price">
+                                                    <div class="ratesFrom">RATES FROM</div>
+                                                    <div class="price">$6500</div>
+                                                </div>
+                                                <a class="detailLink" href="https://webflow-path-three.webflow.io/vacations/canggu">DETAILS</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="contentContainer" id="contentContainerEight">
+                                    <div class="contentContainerInside">
+                                        <div class="vacationCard" id="vacationCardEight"></div>
+                                        <div class="vacationBottom">
+                                            <h3>Komodo</h3>
+                                            <div class="infoDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin eget.</div>
+                                            <div class="vacationDetails">
+                                                <div class="vacation-price">
+                                                    <div class="ratesFrom">RATES FROM</div>
+                                                    <div class="price">$7600</div>
+                                                </div>
+                                                <a class="detailLink" href="https://webflow-path-three.webflow.io/vacations/komodo">DETAILS</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="contentContainer" id="contentContainerNine">
+                                    <div class="contentContainerInside">
+                                        <div class="vacationCard" id="vacationCardNine"></div>
+                                        <div class="vacationBottom">
+                                            <h3>Penida Island</h3>
+                                            <div class="infoDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin eget.</div>
+                                            <div class="vacationDetails">
+                                                <div class="vacation-price">
+                                                    <div class="ratesFrom">RATES FROM</div>
+                                                    <div class="price">$2800</div>
+                                                </div>
+                                                <a class="detailLink" href="https://webflow-path-three.webflow.io/vacations/penida-island">DETAILS</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="bottomFour">
+                                <div class="contentContainer" id="contentContainerTen">
+                                    <div class="contentContainerInside">
+                                        <div class="vacationCard" id="vacationCardTen"></div>
+                                        <div class="vacationBottom">
+                                            <h3>Bonifacio</h3>
+                                            <div class="infoDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin eget.</div>
+                                            <div class="vacationDetails">
+                                                <div class="vacation-price">
+                                                    <div class="ratesFrom">RATES FROM</div>
+                                                    <div class="price">$1400</div>
+                                                </div>
+                                                <a class="detailLink" href="https://webflow-path-three.webflow.io/vacations/bonifacio">DETAILS</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="contentContainer" id="contentContainerEleven">
+                                    <div class="contentContainerInside">
+                                        <div class="vacationCard" id="vacationCardEleven"></div>
+                                        <div class="vacationBottom">
+                                            <h3>Brittany</h3>
+                                            <div class="infoDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin eget.</div>
+                                            <div class="vacationDetails">
+                                                <div class="vacation-price">
+                                                    <div class="ratesFrom">RATES FROM</div>
+                                                    <div class="price">$3600</div>
+                                                </div>
+                                                <a class="detailLink" href="https://webflow-path-three.webflow.io/vacations/brittany">DETAILS</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="contentContainer" id="contentContainerTwelve">
+                                    <div class="contentContainerInside">
+                                        <div class="vacationCard" id="vacationCardTwelve"></div>
+                                        <div class="vacationBottom">
+                                            <h3>Carcassonne</h3>
+                                            <div class="infoDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin eget.</div>
+                                            <div class="vacationDetails">
+                                                <div class="vacation-price">
+                                                    <div class="ratesFrom">RATES FROM</div>
+                                                    <div class="price">$3900</div>
+                                                </div>
+                                                <a class="detailLink" href="https://webflow-path-three.webflow.io/vacations/carcassonne">DETAILS</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- session-6 -->
+        <div class="session-6">
+            <div class="session-6-container">
+                <div class="promise-intro">
+                    <div class="promise-subtitle">COVILLA PROMISE</div>
+                    <h1>Get unparalleled peace of mind from start to finish of your trip</h1>
+                    <div class="info-links">
+                        <a class="info-contact" href="https://webflow-path-three.webflow.io/support">CONTACT US</a>
+                        <a class="how-link" href="https://webflow-path-three.webflow.io/#steps">HOW IT WORKS</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- session-7 -->
+        <div class="session-7 ">
+            <div class="steps-section">
+                <div class="section-left">
+                    <div class="peopleImg"></div>
+                    <div class="step-intro">
+                        <div class="steps-description">
+                            <div class="subtitle">GET STARTED TODAY</div>
+                            <h2>Take the stress out of planning vacations</h2>
+                            <div class="description">Donec sed auctor orci. In a nisl vel nisi egestas efficitur nec ac neque. Sed vitae sollicitudin elit, ac tristique nisi.</div>
+                        </div>
+                        <a class="meetAgentLink" href="https://webflow-path-three.webflow.io/about">MEET YOUR TRAVEL AGENTS</a>
+                    </div>
+
+
+
+
+                </div>
+                <div class="section-right"></div>
+            </div>
+
+
+        </div>
+        <!-- session-8 -->
+    </div>
+
+</body>
+
+</html>
+
+<script src="./swiper/swiper-bundle.min.js"></script>
+<script src="./index.js"></script>
