@@ -891,7 +891,6 @@
 .session-5 {
     width: 100%;
     height: 724px;
-    background-color: antiquewhite;
     display: flex;
     justify-content: center;
     position: relative;
@@ -900,7 +899,6 @@
 .session-5-container {
     width: 1244px;
     height: 824px;
-    background-color: aquamarine;
     position: absolute;
     top: -100px;
 }
@@ -911,7 +909,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: green;
 }
 
 .subtitle-intro {
@@ -944,7 +941,6 @@
     width: 1148px;
     height: 603px;
     margin-top: 35px;
-    background-color: aqua;
 }
 
 .vacationTab {
@@ -968,21 +964,6 @@
     position: relative;
 }
 
-.topOne {
-    background-color: #3572ff;
-}
-
-.topTwo {
-    background-color: yellow;
-}
-
-.topThree {
-    background-color: pink;
-}
-
-.topFour {
-    background-color: #ff3586;
-}
 
 .circleOne {
     width: 42px;
@@ -1026,14 +1007,12 @@
     width: 100%;
     height: 100%;
     margin-top: 35px;
-    /* background-color: pink; */
     display: flex;
     justify-content: center;
 }
 
 .vacationTabContent li {
     width: 1148px;
-    background-color: #3572ff;
     /* width: 100%; */
     height: 471px;
     list-style: none;
