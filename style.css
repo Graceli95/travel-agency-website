@@ -6,7 +6,6 @@
 .main {
     width: 100%;
     height: 3000px;
-    /* background-color: aqua; */
 }
 
 
@@ -352,7 +351,6 @@
 .circle {
     width: 450px;
     height: 450px;
-    /* border: 1px solid green; */
     position: relative;
     right: -150px;
     top: -130px;
@@ -370,7 +368,6 @@
     margin-left: 176px;
     margin-top: 180px;
     z-index: 10;
-    /* background-color: blue; */
 }
 
 .circleTwoBlue {
@@ -379,7 +376,6 @@
     border: 1px dashed gray;
     margin-left: 135px;
     margin-top: 138px;
-    /* background-color: yellow; */
     z-index: 9;
 }
 
@@ -390,7 +386,6 @@
     margin-left: 72px;
     margin-top: 77px;
     z-index: 8;
-    /* background-color: purple; */
     display: none;
 }
 
@@ -401,7 +396,6 @@
     margin-left: 19px;
     margin-top: 23px;
     z-index: 7;
-    /* background-color: brown; */
     display: none;
 }
 
@@ -541,7 +535,6 @@
 .aboutContainer div {
     width: 123px;
     height: 79px;
-    /* background-color: aqua; */
     text-align: center;
     line-height: 79px;
 }
@@ -586,7 +579,6 @@
     text-align: center;
     font-size: 18px;
     background: #fff;
-    /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -604,13 +596,11 @@
     width: 720px !important;
     height: 450px !important;
     background-color: blue;
-    /* margin-left: 50px; */
 }
 
 .swiper-slide-active,
 .swiper-slide-duplicate-active {
     transform: scale(1);
-    /* margin-left: -500px; */
 }
 
 .swiperBox {
@@ -622,7 +612,6 @@
 .swiper-container {
     width: 100%;
     height: 100%;
-    /* background-color: pink; */
     margin-top: 50px;
     position: relative;
 }
@@ -644,7 +633,6 @@
 
 .swiper-button-prev {
     position: absolute;
-    /* margin-left: 400px; */
 }
 
 .slide-1 {
@@ -671,7 +659,6 @@
 /* session-3 */
 
 .session-3 {
-    /* width: 1356px; */
     width: 100%;
     height: 1173.39px;
     background-color: rgb(246, 248, 252);
@@ -742,7 +729,6 @@
     background-image: url(https://assets.website-files.com/60675f13ea324fdd4af9ef2a/6075041a5cc5c760b623c7e7_Travel004.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-position: 50% 50%; */
 }
 
 
@@ -801,9 +787,6 @@
 }
 
 .benefit-icon img {
-    /* max-width: 100%;
-    vertical-align: middle;
-    display: inline-block; */
     width: 30px;
     height: 30px;
 }
@@ -812,7 +795,6 @@
     font-size: 22px;
     font-weight: 500;
     line-height: 1.25em;
-    /* letter-spacing: -0.03em; */
     margin-top: 60px;
     margin-left: 25px;
 }
@@ -947,7 +929,6 @@
     width: 1148px;
     height: 60px;
     display: flex;
-    /* background-color: pink; */
 }
 
 .vacationTab li {
@@ -1013,7 +994,6 @@
 
 .vacationTabContent li {
     width: 1148px;
-    /* width: 100%; */
     height: 471px;
     list-style: none;
     display: flex;
@@ -1026,10 +1006,6 @@
     width: 359px;
     height: 471px;
     border-radius: 10px;
-    /* display: inline-flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center; */
     margin-left: 15px;
     background-color: rgba(255, 255, 255);
     border: 1px solid rgba(192, 192, 211, 0.2);
@@ -1105,18 +1081,6 @@
 }
 
 
-/* .contentContainerFour,
-.contentContainerFive,
-.contentContainerSix,
-.contentContainerSeven,
-.contentContainerEight,
-.contentContainerNine,
-.contentContainerTen,
-.contentContainerEleven,
-.contentContainerTwelve {
-    display: inline-block;
-} */
-
 .vacationBottom {
     display: flex;
     flex-wrap: wrap;
@@ -1150,8 +1114,6 @@
 }
 
 .vacationDetails {
-    /* width: 321px;
-    height: 59px; */
     border-top: 1px solid rgba(192, 192, 211, 0.2);
     margin-top: 20px;
     margin-left: 15px;
@@ -1169,16 +1131,10 @@
 .vacation-price {
     display: grid;
     grid-auto-columns: 1fr;
-    /* grid-column-gap: 16px; */
     grid-row-gap: 4px;
-    /* grid-template-columns: 1fr; */
-    /* grid-template-rows: auto auto; */
-    /* margin-top: 10px; */
 }
 
 .ratesFrom {
-    /* margin-top: 25px;
-    margin-left: 10px; */
     color: #081c3a;
     font-size: 8px;
     letter-spacing: 3px;
@@ -1212,7 +1168,6 @@
 .session-6-container {
     width: 100%;
     height: 583px;
-    /* margin-left: 80px; */
     margin-right: 0;
     background: linear-gradient(rgba(15, 19, 38, 0.55), rgba(15, 19, 38, 0.55)), url(https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607b6ec5eba5a81fd8c62ddd_031.jpeg);
     background-size: cover;
@@ -1313,7 +1268,6 @@
 .section-right {
     width: 613px;
     height: 1504px;
-    background-color: green;
 }
 
 .peopleImg {
